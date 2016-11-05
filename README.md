@@ -7,7 +7,7 @@ $ docker build -t valgrind .
 
 ## Running
 ```
-$ docker run -d --name valgrind -v &lt;Source Path&gt;:/root/build valgrind
+$ docker run -d --name valgrind -v [/source/code/path]:/root/build valgrind
 ```
 
 ## Attaching
